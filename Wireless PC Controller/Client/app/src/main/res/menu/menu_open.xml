@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools" tools:context="com.example.pcremote.Open">
+
+<item android:id="@+id/showlist" android:title="Show List"
+    />
+
+    <item android:id="@+id/help"
+        android:title="Help"
+
+        />
+</menu>

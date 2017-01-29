@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.example.pcremote.Keyboard">
+
+
+    <item android:id="@+id/save_data" android:title="Save"
+        />
+
+    <item android:id="@+id/clear" android:title="Clear All"
+        />
+
+    <item android:id="@+id/close" android:title="Close Editor"
+        />
+
+
+    <item android:id="@+id/action_settings"
+        android:title="Help"
+        android:onClick="HelpGo"
+        android:icon="@drawable/n"
+        android:orderInCategory="5"
+        app:showAsAction="always" />
+</menu>

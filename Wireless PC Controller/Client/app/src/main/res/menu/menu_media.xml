@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.example.pcremote.Media">
+    <item android:id="@+id/fl" android:title="Full Screen"
+        />
+
+    <item android:id="@+id/mn" android:title="Minimize"
+        />
+
+    <item android:id="@+id/stp" android:title="Stop"
+        />
+
+    <item android:id="@+id/help"
+        android:title="Help"
+        />
+</menu>

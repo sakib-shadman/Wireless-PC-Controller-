@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#004D40"
+    tools:context="com.example.pcremote.Presenter">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="90dp"
+        >
+
+        <Button
+            android:id="@+id/full"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Slide Show"
+            android:layout_marginLeft="20dp"
+            android:onClick="p_execute"
+            android:textColor="#EEEEEE"/>
+
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Normal Mode"
+            android:layout_marginLeft="70dp"
+            android:onClick="p_execute"
+            android:textColor="#EEEEEE"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
+
+        <ImageView
+            android:id="@+id/left_arow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/left"
+            android:onClick="p_execute"
+            />
+        <ImageView
+            android:id="@+id/right_arow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/right"
+            android:onClick="p_execute"/>
+
+
+    </LinearLayout>
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="20dp">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home"
+        android:text="Start"
+        android:layout_marginLeft="80dp"
+        android:onClick="p_execute"
+        android:textColor="#EEEEEE"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/end"
+        android:text="End"
+        android:layout_marginLeft="20dp"
+        android:onClick="p_execute"
+        android:textColor="#EEEEEE"/>
+</LinearLayout>
+</LinearLayout>

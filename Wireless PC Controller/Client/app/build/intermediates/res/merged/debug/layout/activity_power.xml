@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mousebk"
+
+    tools:context="com.example.pcremote.Power">
+
+
+    <ExpandableListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/expandableListView" />
+
+<!--    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ShutDown"
+        android:id="@+id/shutdown_button"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="send_data"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restart"
+        android:id="@+id/restart_button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="81dp"
+        android:layout_marginEnd="81dp"
+        android:onClick="send_data"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hibernet"
+        android:id="@+id/hibernet_button"
+        android:layout_below="@+id/lock_button"
+        android:layout_toRightOf="@+id/shutdown_button"
+        android:layout_toEndOf="@+id/shutdown_button"
+        android:layout_marginTop="118dp"
+        android:onClick="send_data"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lock"
+        android:id="@+id/lock_button"
+        android:layout_alignTop="@+id/sleep_button"
+        android:layout_alignLeft="@+id/restart_button"
+        android:layout_alignStart="@+id/restart_button"
+        android:onClick="send_data"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sleep"
+        android:id="@+id/sleep_button"
+        android:layout_marginTop="92dp"
+        android:layout_below="@+id/shutdown_button"
+        android:layout_alignRight="@+id/shutdown_button"
+        android:layout_alignEnd="@+id/shutdown_button"
+        android:onClick="send_data"
+        /> -->
+
+</LinearLayout>
+<!-- From: file:/C:/Users/Sakib/AndroidStudioProjects/PcRemote-master/app/src/main/res/layout/activity_power.xml -->

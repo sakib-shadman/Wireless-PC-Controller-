@@ -1,0 +1,1 @@
+netsh wlan set hostednetwork mode=allow ssid=sakibpc key=12345679

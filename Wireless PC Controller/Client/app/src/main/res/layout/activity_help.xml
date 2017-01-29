@@ -1,0 +1,104 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#81D4FA"
+    tools:context="com.example.pcremote.Help">
+
+
+    <TextView
+        android:text="HOW TO CONNECT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#1A237E"/>
+    <TextView
+        android:text="First run the server program the server program will create a WIFI hotspot.Turn the WIFI of your phone.Then press the connect button.This will connect the phone with the computer."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"/>
+    <TextView
+        android:paddingTop="10dp"
+        android:text="Mouse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#1A237E"/>
+    <TextView
+        android:text="Use mouse similarly to touch pad.The right click and left click buttons are under the touch pad."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:paddingTop="10dp"
+        android:text="Keyboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#1A237E"/>
+    <TextView
+        android:text="This option works as normal keyboard. "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:paddingTop="10dp"
+        android:text="Media"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#1A237E"/>
+    <TextView
+        android:text="This option is to control Videos .If a Video is turned on then you can go forward,backward also you can up and down the volume,play or pause the Video,stop the video.Also fullscreen,minimize options are available."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:paddingTop="10dp"
+        android:text="Presenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#1A237E"/>
+    <TextView
+        android:text="You can use the presenter option to control the slides.Options are forward,backward,sliding mode and normal . "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:paddingTop="10dp"
+        android:text="Essentials"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#1A237E"/>
+    <TextView
+        android:text="Essentials option is to give you the control of your computers power options,volume up,down options and others."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:paddingTop="10dp"
+        android:text="Open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#1A237E"/>
+    <TextView
+        android:text="This option is used to open a file from any directory.There is also option to save a directory which can be viewed and opened latter."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"/>
+</LinearLayout>
+</ScrollView>

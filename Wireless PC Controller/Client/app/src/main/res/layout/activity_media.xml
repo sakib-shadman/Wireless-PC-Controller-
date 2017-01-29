@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/openbk"
+    android:orientation="vertical"
+    tools:context="com.example.pcremote.Media"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="100dp">
+
+        <ImageButton
+            android:id="@+id/up"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/up"
+            android:layout_marginLeft="130dp"
+            android:onClick="execute"
+
+
+             />
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="30dp">
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:background="@drawable/back"
+        android:onClick="execute"
+        />
+
+
+    <ImageButton
+        android:id="@+id/play"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:onClick="execute"
+        android:background="@drawable/pause"
+
+        />
+
+    <ImageButton
+        android:id="@+id/forward"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/forward"
+        android:onClick="execute"
+        />
+
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/down"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/down"
+            android:onClick="execute"
+            android:layout_marginLeft="130dp"
+
+          />
+
+    </LinearLayout>
+
+</LinearLayout>

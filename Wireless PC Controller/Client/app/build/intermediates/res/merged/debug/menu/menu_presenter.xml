@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.example.pcremote.Presenter">
+
+    <item android:id="@+id/edit" android:title="Edit:"
+        />
+
+    <item android:id="@+id/mouse" android:title="MosePad"
+        />
+
+    <item android:id="@+id/key" android:title="KeyBoard"
+        />
+
+    <item android:id="@+id/help"
+        android:title="Help"
+
+        />
+</menu>
+<!-- From: file:/C:/Users/Sakib/AndroidStudioProjects/PcRemote-master/app/src/main/res/menu/menu_presenter.xml -->
